@@ -1,0 +1,26 @@
+:root{
+  --text: #ff0000;
+  --bg: #744d4d;
+
+}
+
+*{
+  margin-top: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: var(--bg);
+  color: var(var(--text));
+}
+
+section{
+  min-height: 100vh;
+  height: auto;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
